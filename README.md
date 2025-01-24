@@ -1,0 +1,3 @@
+# React Native Uncommon Bug: Accessing undefined state or props
+
+This repository demonstrates a common yet often overlooked error in React Native applications: attempting to access state variables or props before they have been properly assigned. This usually happens when components render before the necessary data is available, leading to runtime errors. The solutions provided show how to prevent this issue by utilizing lifecycle methods, conditional rendering, and asynchronous operations.
